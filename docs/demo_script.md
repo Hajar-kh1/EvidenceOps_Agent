@@ -1,4 +1,4 @@
-#Demonstration
+# Demonstration
 
 1. Show `app/`, `tests/`, `evaluation/`, `data/`, and the protected `.env` setup.
 2. Explain the persisted files in `storage/` and run the health endpoint.
