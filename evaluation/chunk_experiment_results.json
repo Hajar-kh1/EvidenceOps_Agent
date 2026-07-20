@@ -1,0 +1,44 @@
+[
+  {
+    "chunk_size": 350,
+    "chunk_overlap": 50,
+    "document_count": 545,
+    "node_count": 1856,
+    "top_k": 10,
+    "evaluated_questions": 16,
+    "retrieval_hits": 9,
+    "retrieval_hit_rate": 0.5625,
+    "average_retrieval_latency_seconds": 0.4794,
+    "build_seconds": 38.28,
+    "embedding_tokens": 0,
+    "reused_existing_index": false
+  },
+  {
+    "chunk_size": 700,
+    "chunk_overlap": 100,
+    "document_count": 545,
+    "node_count": 939,
+    "top_k": 10,
+    "evaluated_questions": 16,
+    "retrieval_hits": 10,
+    "retrieval_hit_rate": 0.625,
+    "average_retrieval_latency_seconds": 0.3759,
+    "build_seconds": 0.0,
+    "embedding_tokens": 0,
+    "reused_existing_index": true
+  },
+  {
+    "chunk_size": 1200,
+    "chunk_overlap": 150,
+    "document_count": 545,
+    "node_count": 614,
+    "top_k": 10,
+    "evaluated_questions": 16,
+    "retrieval_hits": 10,
+    "retrieval_hit_rate": 0.625,
+    "average_retrieval_latency_seconds": 0.3231,
+    "build_seconds": 12.38,
+    "embedding_tokens": 0,
+    "reused_existing_index": false
+  }
+]

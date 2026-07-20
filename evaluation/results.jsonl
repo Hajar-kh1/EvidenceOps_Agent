@@ -1,0 +1,16 @@
+{"id": "q001", "retrieved_sources": ["EN_GFARC_GUIDELINES_2020.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": false, "latency_seconds": 2.7328}
+{"id": "q002", "retrieved_sources": ["EN_GFARC_GUIDELINES_2020.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": false, "latency_seconds": 0.7023}
+{"id": "q003", "retrieved_sources": ["CPR_AED_Choking.pdf.pdf", "EN_GFARC_GUIDELINES_2020.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": true, "latency_seconds": 0.326}
+{"id": "q004", "retrieved_sources": ["EN_GFARC_GUIDELINES_2020.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": false, "latency_seconds": 0.4103}
+{"id": "q005", "retrieved_sources": ["EN_GFARC_GUIDELINES_2020.pdf", "Epilepsy.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": true, "latency_seconds": 0.9477}
+{"id": "q006", "retrieved_sources": ["EN_GFARC_GUIDELINES_2020.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": false, "latency_seconds": 0.3369}
+{"id": "q007", "retrieved_sources": ["EN_GFARC_GUIDELINES_2020.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": false, "latency_seconds": 0.337}
+{"id": "q008", "retrieved_sources": ["EN_GFARC_GUIDELINES_2020.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": false, "latency_seconds": 0.357}
+{"id": "q009", "retrieved_sources": ["EN_GFARC_GUIDELINES_2020.pdf", "Head-Injuries.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": true, "latency_seconds": 0.3703}
+{"id": "q010", "retrieved_sources": ["EN_GFARC_GUIDELINES_2020.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": false, "latency_seconds": 0.4261}
+{"id": "q011", "retrieved_sources": ["EN_GFARC_GUIDELINES_2020.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": false, "latency_seconds": 0.4392}
+{"id": "q012", "retrieved_sources": ["EN_GFARC_GUIDELINES_2020.pdf", "Stitches.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": true, "latency_seconds": 0.4344}
+{"id": "q022", "retrieved_sources": ["EN_GFARC_GUIDELINES_2020.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": true, "latency_seconds": 0.3375}
+{"id": "q023", "retrieved_sources": ["EN_GFARC_GUIDELINES_2020.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": true, "latency_seconds": 0.3854}
+{"id": "q024", "retrieved_sources": ["EN_GFARC_GUIDELINES_2020.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": false, "latency_seconds": 0.3326}
+{"id": "q025", "retrieved_sources": ["EN_GFARC_GUIDELINES_2020.pdf"], "selected_tool": "knowledge_base_search", "used_tools": ["knowledge_base_search"], "task_completed": false, "latency_seconds": 0.4266}

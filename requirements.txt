@@ -1,0 +1,12 @@
+# Compatibility installer for environments that do not use uv.
+# The reproducible source of truth remains pyproject.toml + uv.lock.
+fastapi>=0.115,<1
+llama-index-core>=0.12,<0.15
+llama-index-embeddings-openai>=0.3,<0.6
+llama-index-llms-openai>=0.3,<0.7
+llama-index-readers-file>=0.4,<0.6
+pydantic-settings>=2.7,<3
+pypdf>=5,<7
+python-dotenv>=1,<2
+uvicorn[standard]>=0.34,<1
+pytest>=8,<10

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Evidence-grounded first-aid research assistant">
+  <title>FirstAidOps</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="FirstAidOps home">
+      <span class="brand-mark" aria-hidden="true">+</span>
+      <span>FirstAidOps</span>
+    </a>
+    <div class="system-status" id="systemStatus">
+      <span class="status-dot"></span>
+      <span>Checking knowledge base…</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Evidence-grounded first-aid guidance</p>
+      <h1>Ask clearly.<br><span>Respond safely.</span></h1>
+      <p class="hero-copy">Search a controlled first-aid knowledge base, review the supporting evidence, and approve reports only when you are ready.</p>
+    </section>
+
+    <section class="workspace" aria-label="First-aid research workspace">
+      <form id="researchForm" class="research-form">
+        <label for="question">What would you like to research?</label>
+        <textarea id="question" minlength="10" maxlength="2000" required placeholder="Example: What immediate first-aid steps are recommended for a minor thermal burn?"></textarea>
+
+        <div class="form-row">
+          <div>
+            <label for="audience">Audience</label>
+            <select id="audience">
+              <option value="general">General public</option>
+              <option value="first-aid trainee">First-aid trainee</option>
+              <option value="healthcare educator">Healthcare educator</option>
+            </select>
+          </div>
+          <button id="submitButton" type="submit">
+            <span>Research guidance</span>
+            <span aria-hidden="true">→</span>
+          </button>
+        </div>
+
+        <div class="examples" aria-label="Example questions">
+          <span>Try:</span>
+          <button type="button" data-question="What immediate first-aid steps are recommended for a minor thermal burn?">Minor burn</button>
+          <button type="button" data-question="What are the warning signs of a stroke, and what immediate action should be taken?">Suspected stroke</button>
+          <button type="button" data-question="Compare the first-aid response for heat stroke and shock.">Compare responses</button>
+        </div>
+      </form>
+
+      <aside class="safety-note">
+        <span class="safety-icon" aria-hidden="true">!</span>
+        <div>
+          <strong>Educational guidance only</strong>
+          <p>FirstAidOps does not diagnose or replace emergency services. For urgent or life-threatening situations, contact local emergency services immediately.</p>
+        </div>
+      </aside>
+
+      <section id="loadingPanel" class="result-panel hidden" aria-live="polite">
+        <div class="loader"></div>
+        <div>
+          <h2>Reviewing the evidence</h2>
+          <p>Searching indexed first-aid sources. This can take up to two minutes.</p>
+        </div>
+      </section>
+
+      <section id="resultPanel" class="result-panel hidden" aria-live="polite">
+        <div class="result-header">
+          <div>
+            <p class="eyebrow">Research result</p>
+            <h2>Evidence-based response</h2>
+          </div>
+          <span id="resultStatus" class="result-status"></span>
+        </div>
+        <div id="resultText" class="result-text"></div>
+        <section class="evidence-summary" aria-labelledby="sourcesHeading">
+          <div>
+            <p class="evidence-label">Confidence</p>
+            <p id="confidenceLevel" class="confidence-level">—</p>
+          </div>
+          <div>
+            <p id="sourcesHeading" class="evidence-label">Sources</p>
+            <ul id="sourceList" class="source-list"></ul>
+          </div>
+        </section>
+        <dl class="result-meta">
+          <div><dt>Report ID</dt><dd id="reportId">—</dd></div>
+          <div><dt>Tokens</dt><dd id="tokenCount">—</dd></div>
+          <div><dt>Estimated cost</dt><dd id="estimatedCost">—</dd></div>
+        </dl>
+        <div class="result-actions">
+          <button id="approveButton" type="button" class="approve-button">Approve & save report</button>
+          <button id="newQuestionButton" type="button" class="secondary-button">Ask another question</button>
+        </div>
+      </section>
+
+      <section id="errorPanel" class="error-panel hidden" role="alert">
+        <strong>We could not complete this request.</strong>
+        <p id="errorText"></p>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <span>FirstAidOps</span>
+    <span>Private knowledge base · Human-approved reports · Auditable actions</span>
+  </footer>
+  <script src="/static/app.js" defer></script>
+</body>
+</html>
